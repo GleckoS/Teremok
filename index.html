@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Теремочек</title>
     <link href="./css/style.css" rel="stylesheet">
+    <link href="./fonts/fontawesome/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
-        rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <!-- Mouse Memoirs -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-    <link href="./fonts/fontawesome/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -100,11 +99,13 @@
     <div class="entertainment">
         <div class="entertainment-item">
             <div class="entertainment-item__nav">
-                <button onclick="TabChange(this)" id="first-tab" class="entertainment-item__nav-button right-border_none active">
+                <button onclick="TabChange(this)" id="first-tab"
+                    class="entertainment-item__nav-button right-border_none active">
                     <i class="fas fa-puzzle-piece"></i>
                     <p>Развлечения</p>
                 </button>
-                <button onclick="TabChange(this)" id="second-tab" class="entertainment-item__nav-button right-border_none">
+                <button onclick="TabChange(this)" id="second-tab"
+                    class="entertainment-item__nav-button right-border_none">
                     <i class="fas fa-paw"></i>
                     <p>Животные</p>
                 </button>
@@ -125,6 +126,34 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="staff">
+        <h2 class="staff-title">Наш коллектив</h2>
+        <div class="staff-content">
+            <div class="staff-content__item">
+                <img class="staff-content__item-img" src="./images/person.png">
+                <div class="staff-content__item-inform">
+                    <h5 class="staff-content__item-title">Татьяна Жайворонок</h5>
+                    <p class="staff-content__item-text">АДМИНИСТРАТОР</p>
+                </div>
+            </div>
+            <div class="staff-content__item">
+                <img class="staff-content__item-img" src="./images/person.png">
+                <div class="staff-content__item-inform">
+                    <h5 class="staff-content__item-title">Татьяна Жайворонок</h5>
+                    <p class="staff-content__item-text">АДМИНИСТРАТОР</p>
+                </div>
+            </div>
+            <div class="staff-content__item">
+                <img class="staff-content__item-img" src="./images/person.png">
+                <div class="staff-content__item-inform">
+                    <h5 class="staff-content__item-title">Татьяна Жайворонок</h5>
+                    <p class="staff-content__item-text">АДМИНИСТРАТОР</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
     </div>
     <div class="reviews">
         <div class="reviews-inform">
@@ -184,33 +213,35 @@
             </div>
         </div>
     </div>
-    </div>
-    <div class="staff">
-        <h2 class="staff-title">Наш коллектив</h2>
-        <div class="staff-content">
-            <div class="staff-content__item">
-                <img class="staff-content__item-img" src="./images/person.png">
-                <div class="staff-content__item-inform">
-                    <h5 class="staff-content__item-title">Татьяна Жайворонок</h5>
-                    <p class="staff-content__item-text">АДМИНИСТРАТОР</p>
-                </div>
-            </div>
-            <div class="staff-content__item">
-                <img class="staff-content__item-img" src="./images/person.png">
-                <div class="staff-content__item-inform">
-                    <h5 class="staff-content__item-title">Татьяна Жайворонок</h5>
-                    <p class="staff-content__item-text">АДМИНИСТРАТОР</p>
-                </div>
-            </div>
-            <div class="staff-content__item">
-                <img class="staff-content__item-img" src="./images/person.png">
-                <div class="staff-content__item-inform">
-                    <h5 class="staff-content__item-title">Татьяна Жайворонок</h5>
-                    <p class="staff-content__item-text">АДМИНИСТРАТОР</p>
-                </div>
-            </div>
+    <div class="x">
+        <div class="x-item">
+            <img>
+            <h4></h4>
+            <p></p>
+        </div>
+        <div class="x-item">
+
+        </div>
+        <div class="x-item">
+
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-inform">
+                <div>
+                    <p>Пушкинская 72\2, Николаев</p>
+                </div>
+                <div>
+                    <p>Телефон: <a>8 (800) 695-2684</a></p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>Facebook</div>
+                <div>Instagram</div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./js/main.js"></script>
 </body>

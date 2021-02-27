@@ -13,7 +13,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
     font-family: cursive;
 }
 
@@ -147,7 +146,7 @@ body {
     position: relative;
 }
 
-.row-icon{
+.row-icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -393,7 +392,7 @@ body {
     display: flex;
 }
 
-.entertainment-item__nav-button{
+.entertainment-item__nav-button {
     width: 100%;
     background: #fff;
     border: 1px solid #f7f7f7;
@@ -401,27 +400,27 @@ body {
     cursor: pointer;
 }
 
-.entertainment-item__nav-button:hover{
+.entertainment-item__nav-button:hover {
     background-color: #f7f7f7;
 }
 
-.entertainment-item__nav-button.active{
+.entertainment-item__nav-button.active {
     background-image: url(./../images/tab_active.jpg);
     border: 1px solid #ec2626;
     cursor: default;
     text-align: center;
 }
 
-.right-border_none{
-    border-right: none; 
+.right-border_none {
+    border-right: none;
 }
 
-.entertainment-item__content-container{
+.entertainment-item__content-container {
     position: relative;
     height: 600px;
 }
 
-.entertainment-item__content{
+.entertainment-item__content {
     position: absolute;
     height: 0;
     transition: .3s linear;
@@ -429,30 +428,79 @@ body {
     bottom: 0;
 }
 
-.entertainment-item__content.active{
+.entertainment-item__content.active {
     height: 600px;
-    
 }
 
-.entertainment-item__nav-button i,
-.entertainment-item__nav-button p{
+.entertainment-item__nav-button i {
+    color: #ec2626;
+}
+
+.entertainment-item__nav-button p {
+    font-family: "Earth";
+    color: var(--add-text-color);
+    text-transform: lowercase;
+}
+
+.entertainment-item__nav-button i, .entertainment-item__nav-button p {
     font-size: 24px;
     transition: .2s linear;
 }
 
-.entertainment-item__nav-button.active p,
-.entertainment-item__nav-button.active i{
+.entertainment-item__nav-button.active p, .entertainment-item__nav-button.active i {
     color: #fff;
 }
 
-.first-tab{
+.first-tab {
     background-color: #f7f7f7;
 }
 
-.second-tab{
+.second-tab {
     background-color: #a8a8a8;
 }
 
-.third-tab{
+.third-tab {
     background-color: #888;
 }
+
+.portfolio {
+    min-height: 480px;
+    padding-top: 40px;
+    position: relative;
+    background-image: url(./../images/3.jpg);
+    background-size: cover;
+}
+
+.x {
+    height: calc(100vh - 60px);
+    background-image: url(./../images/2c.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.x-item {
+    width: 370px;
+    height: 700px;
+    background-color: #fff;
+    margin-top: calc((100vh - 760px) / 2);
+}
+
+footer {
+    background-image: url(./../images/footer-bg.png);
+    height: 300px;
+    width: 100vw;
+}
+
+.footer-content {
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.footer-links,
+.footer-inform{
+    display: flex;
+    justify-content: center;
+}
+
